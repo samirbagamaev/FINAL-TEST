@@ -260,11 +260,16 @@ FROM hamsters hm
 LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
+![MySQL Workbench 01 10 2023 22_04_49](https://github.com/samirbagamaev/FINAL-TEST/assets/120112500/594d8815-1aa0-4851-a8bb-ddf6819344e0)
 
 
 *13.Создать класс с [Инкапсуляцией методов и наследованием по диаграмме](https://github.com/samirbagamaev/FINAL-TEST/tree/main/WORK/Model).*
 
+![Cat java - FINAL TEST - Visual Studio Code 01 10 2023 22_03_51](https://github.com/samirbagamaev/FINAL-TEST/assets/120112500/b710615a-6d7e-48a7-b68e-b62a38b4b00a)
+
+
 *14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/samirbagamaev/FINAL-TEST/tree/main/WORK).*
+
 
 *В программе должен быть реализован следующий функционал:
 14.1 Завести новое животное
@@ -278,3 +283,6 @@ LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 блоке try-with-resources. Нужно бросить исключение, если работа с объектом
 типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
 считать в ресурсе try, если при заведения животного заполнены все поля.*
+
+![doc_2022 gitignore - FINAL TEST - Visual Studio Code 01 10 2023 22_06_24](https://github.com/samirbagamaev/FINAL-TEST/assets/120112500/6a61a64d-e8bb-42c2-b896-77a089c1ea16)
+
