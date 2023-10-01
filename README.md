@@ -24,3 +24,32 @@
 
 *3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.*
+
+```
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+
+dpkg -i mysql-apt-config_0.8.23-1_all.deb
+
+apt-get update
+
+apt-get install mysql-server
+```
+
+*4. Установить и удалить deb-пакет с помощью dpkg.*
+
+```
+sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+
+sudo dpkg -i docker-ce-cli_20.10.133-0ubuntu-jammy_amd64.deb
+
+sudo dpkg -r docker-ce-cli
+
+```
+
+*6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
+животные и вьючные животные, в составы которых в случае домашних
+животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
+войдут: Лошади, верблюды и ослы).*
+
+
+![draw io - DRAW drawio - draw io 01 10 2023 18_26_55](https://github.com/samirbagamaev/FINAL-TEST/assets/120112500/945ad359-7ab7-4aba-a4a1-a3678c781d30)
